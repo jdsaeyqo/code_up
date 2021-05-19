@@ -75,7 +75,7 @@ public class lake {
 			int newY = y + dy[i];
 			
 			if(newX >=0 && newX < row && newY >= 0 && newY < col) {
-				if(map[newX][newY] == map[x][y] && visit[newX][newY] == false) {
+				if(map[newX][newY]=='L' && visit[newX][newY] == false) {
 					size+=dfs(newX,newY);
 				}
 			}
