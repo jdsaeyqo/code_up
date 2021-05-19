@@ -24,7 +24,6 @@ public class hanoi {
 			System.out.println(move(n));
 			System.out.println(dp[n]);
 		}
-
 		
 		
 	}
