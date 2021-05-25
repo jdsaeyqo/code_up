@@ -12,7 +12,7 @@ public class candy_pang {
 	public static int[] dy = {0,0,1,-1};
 	public static int sum;
 	
-	
+	//서치
 	public static int search(int x, int y) {
 				
 		visit[x][y] = true;
